@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLC-UDAPI-TrainingExerciseHttpCoinMarketCapApi", "SLC-UDAPI-TrainingExerciseHttpCoinMarketCapApi.csproj", "{06B5B1D5-D853-436A-A053-91AD3A2F3CED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{E4B6FEB0-884B-450C-871D-E267A5C46459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{C2EC9D36-6C87-4DF8-9CA9-D4E31CFC2DB2}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B5B1D5-D853-436A-A053-91AD3A2F3CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B5B1D5-D853-436A-A053-91AD3A2F3CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B5B1D5-D853-436A-A053-91AD3A2F3CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B5B1D5-D853-436A-A053-91AD3A2F3CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2EC9D36-6C87-4DF8-9CA9-D4E31CFC2DB2} = {E4B6FEB0-884B-450C-871D-E267A5C46459}
+	EndGlobalSection
+EndGlobal
